@@ -1,0 +1,10 @@
+Description:
+Manuever the blocks and arrange them into rows to 
+prevent them from overflowing at the top.
+
+How to play Tetris:
+Left - Move block to the left
+Right - Move block to the right
+Space - Drop block completely
+A - Rotate block to the left
+S - Rotate block to the right

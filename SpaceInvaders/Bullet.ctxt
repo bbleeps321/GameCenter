@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=class\ Bullet
+comment1.params=
+comment1.target=void\ act()
+comment2.target=BULLET_SPEED
+comment3.params=stage
+comment3.target=Bullet(Stage)
+numComments=4

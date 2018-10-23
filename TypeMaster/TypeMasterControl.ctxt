@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=TypeMasterControl()
+comment0.text=\nCreates\ a\ new\ TypeMasterControl\ object.\n\n
+comment1.params=e
+comment1.target=void\ keyTyped(KeyEvent)
+comment1.text=\nHandles\ a\ key\ pressed\ event.\ Will\ destroy\ any\ bubbles\ that\ have\ \nthe\ same\ character\ as\ the\ one\ typed\ and\ increment\ points.\ If\ no\ \nbubbles\ have\ that\ character,\ will\ halve\ points.\n\n
+comment2.target=void\ initializeGameplayComponents()
+comment2.text=\nInitializes\ the\ game\ play\ components.\n\n
+comment3.target=void\ runProcess()
+comment3.text=\nRuns\ the\ game\ process.\n\n
+comment4.target=void\ sendNextBubble()
+comment4.text=\nSends\ the\ next\ bubble\ from\ the\ top\ at\ a\ random\ x\ coordinate.\n\n
+comment5.target=String\ name()
+comment5.text=\nReturns\ the\ name\ of\ the\ game.\n\n
+comment6.target=String\ description()
+comment6.text=\nReturns\ the\ description\ of\ the\ game.\n\n
+comment7.target=boolean\ isScorable()
+comment7.text=\nReturns\ whether\ or\ not\ this\ game\ can\ be\ scored.\n\n
+comment8.params=g
+comment8.target=void\ paintComponent(Graphics)
+comment8.text=\nPaints\ the\ game\ onto\ the\ container.\n\n
+comment9.params=args
+comment9.target=void\ main(String[])
+comment9.text=\nRuns\ the\ game.\n\n
+numComments=10

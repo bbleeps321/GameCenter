@@ -1,0 +1,24 @@
+String[] tempBoard = new String[DIMENSION];
+        
+        // default tempBoard value to "";
+        for (int i = 0; i < tempBoard.length; i++)
+        {
+            tempBoard[i] = "";
+        }
+        
+        // find states of each 
+        for (int j = 0; j < DIMENSION; j++)
+        {
+            int row = 2 - j;
+            
+            for (int k = 0; k < DIMENSION; k++)
+            {
+                tempBoard[j] = tempBoard[j].concat("[" + myBoard.getState(row,k) + "]");
+            }
+        }
+        
+        // print board
+        for (int l = 0; l < tempBoard.length; l++)
+        {
+            System.out.println(tempBoard[l]);
+        }

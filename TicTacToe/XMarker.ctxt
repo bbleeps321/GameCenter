@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=class\ XMarker
+comment1.params=g
+comment1.target=void\ paintComponent(Graphics)
+comment1.text=Precondition\:\ none\n\nPost-Condition\:\ paints\ the\ x\ onto\ the\ canvas.\n\n
+comment2.params=left\ top
+comment2.target=XMarker(double,double)
+comment2.text=Precondition\:\ none\n\nPost-Condition\:\ creates\ two\ lines\ representing\ an\ X\ at\ the\ specified\ coordinates.\n\n
+comment3.target=SIZE
+comment4.target=mark
+numComments=5

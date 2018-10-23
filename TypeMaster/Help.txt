@@ -1,0 +1,8 @@
+Description:
+Type the letters of in the bubbles to pop them. 
+Prevent them from reaching the bottom. But be 
+careful, type a letter that is not there and you'll 
+lost half of your points!
+
+How to play Type Master:
+TYpe the keys that can be seen in the falling bubbles

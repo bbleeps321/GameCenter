@@ -1,0 +1,7 @@
+Description:
+Play one-on-one or against another person.
+Try to get three in a row.
+
+How to play TicTacToe:
+Click where you want to place your piece. 
+The turns alternate.

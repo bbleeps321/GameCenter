@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=class\ Bomber
+comment0.text=\nMade\ by\ me.\nA\ player-controlled\ ship\ that\ is\ slower\ but\ with\ a\ \ngreater\ number\ of\ bombs\ and\ shields\n\n
+comment1.params=stage
+comment1.target=Bomber(Stage)
+comment1.text=\nCreates\ a\ Speeder\ on\ the\ specified\ stage.\n\n
+comment2.target=PLAYER_SPEED
+comment3.target=SHIELD_BUFFER
+comment4.params=i
+comment4.target=void\ addShields(int)
+comment4.text=\nIncreases\ the\ shield\ by\ the\ specified\ amount.\n\n
+comment5.target=MAX_BOMBS
+numComments=6

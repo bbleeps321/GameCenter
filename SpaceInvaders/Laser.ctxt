@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=class\ Laser
+comment1.params=
+comment1.target=void\ act()
+comment2.params=stage
+comment2.target=Laser(Stage)
+comment3.target=BULLET_SPEED
+numComments=4

@@ -1,0 +1,9 @@
+Description:
+Collect as many apples as you can, all while 
+avoiding obstacles and yourself.
+
+How to play Worm:
+Up - Move upwards
+Down - Move downwards
+Left - Move towards the left
+Right - Move towards the right

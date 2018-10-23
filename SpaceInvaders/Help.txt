@@ -1,0 +1,27 @@
+Description:
+Destroy as many monsters as possible while saving
+energy and avoiding their attacks.
+
+How to play Space Invaders:
+Up - Move ship upwards
+Down - Move ship downwards
+Left - Move ship towards the left
+Right - Move ship towards the right
+Space - Fire laser
+A - Fire bomb
+
+***********************Ships***********************
+Normal: Basic ship
+Shields: 200
+Cluster Bombs: 5
+Speed: Average
+
+Speeder: Extremely fast, light ship
+Shields = 150
+Cluster Bombs: 3
+Speed: Very fast
+
+Bomber: Very slow, heavily armed ship
+Shields = 300
+Cluster Bombs: 10
+Speed: Very slow

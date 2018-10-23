@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=class\ Apple
+comment0.text=\nAn\ apple\ in\ the\ Worm\ game,\ represented\ by\ a\ red\ \nellipse.\n\n
+comment1.params=
+comment1.target=Shape\ shape()
+comment1.text=\nReturns\ the\ shape\ representation\ of\ the\ apple.\n\n
+comment2.params=x\ y\ size
+comment2.target=Apple(double,double,double)
+comment2.text=\nCreates\ an\ apple\ at\ the\ specified\ location.\n\n
+comment3.target=myBonus
+comment4.target=IMAGE
+comment5.params=
+comment5.target=int\ bonus()
+comment5.text=\nReturns\ the\ factor\ by\ which\ the\ score\ increment\ is\ multiplied\ \nwhen\ this\ apple\ is\ eaten.\n\n
+numComments=6

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=interface\ Stage
+comment1.params=
+comment1.target=SpriteCache\ getSpriteCache()
+comment2.params=
+comment2.target=Player\ getPlayer()
+comment3.target=PLAY_HEIGHT
+comment4.target=HEIGHT
+comment5.params=a
+comment5.target=void\ addActor(Actor)
+comment6.params=
+comment6.target=void\ gameOver()
+comment7.target=WIDTH
+comment8.params=
+comment8.target=SoundCache\ getSoundCache()
+comment9.target=SPEED
+numComments=10

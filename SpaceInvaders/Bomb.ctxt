@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=class\ Bomb
+comment1.target=DOWN_LEFT
+comment10.target=vx
+comment11.target=DOWN
+comment12.target=UP_RIGHT
+comment13.target=UP
+comment2.target=LEFT
+comment3.target=BOMB_SPEED
+comment4.target=DOWN_RIGHT
+comment5.target=RIGHT
+comment6.params=
+comment6.target=void\ act()
+comment7.target=UP_LEFT
+comment8.target=vy
+comment9.params=stage\ heading\ x\ y
+comment9.target=Bomb(Stage,int,int,int)
+numComments=14

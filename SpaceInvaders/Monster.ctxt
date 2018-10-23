@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=class\ Monster
+comment1.target=FIRING_FREQUENCY
+comment2.params=
+comment2.target=void\ fire()
+comment3.params=stage
+comment3.target=Monster(Stage)
+comment4.params=
+comment4.target=void\ act()
+comment5.params=
+comment5.target=void\ spawn()
+comment6.params=i
+comment6.target=void\ setVx(int)
+comment7.target=vx
+comment8.params=
+comment8.target=int\ getVx()
+comment9.params=a
+comment9.target=void\ collision(Actor)
+numComments=10

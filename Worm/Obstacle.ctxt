@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=class\ Obstacle
+comment0.text=\nAn\ obstacle\ in\ the\ Worm\ game,\ represented\ by\ a\ black\ \nrectangle.\n\n
+comment1.params=
+comment1.target=Shape\ shape()
+comment1.text=\nReturns\ the\ shape\ representation\ of\ the\ obstacle.\n\n
+comment2.target=COLOR
+comment3.params=x\ y\ size
+comment3.target=Obstacle(double,double,double)
+comment3.text=\nCreates\ an\ obstacle\ at\ the\ specified\ location.\n\n
+numComments=4
