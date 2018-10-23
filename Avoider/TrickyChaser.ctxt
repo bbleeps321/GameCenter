@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=class\ TrickyChaser
+comment0.text=\nA\ Chaser\ that\ normally\ moves\ slowly\ but\ speeds\ up\ towards\ \nthe\ target\ when\ it\ enters\ it\ range.\n\n
+comment1.params=
+comment1.target=void\ chase()
+comment1.text=\nChanges\ the\ direction\ of\ this\ chaser\ when/if\ the\ target\ enters\ \nit\ range.\n\n
+comment2.target=COLOR
+comment3.target=RANGE
+comment4.params=x\ y\ target\ acanvas
+comment4.target=TrickyChaser(double,double,Avoider,GameComponents.Canvas)
+comment4.text=\nCreates\ a\ Chaser\ at\ the\ specified\ coordinates\ on\ the\ given\ canvas\ \nwith\ the\ specified\ target\ to\ chase.\n\n
+comment5.target=PURSUIT_SPEED
+comment6.target=MAX_SPEED
+comment7.target=MIN_SPEED
+numComments=8

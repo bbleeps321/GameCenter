@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=class\ RandomChaser
+comment0.text=\nA\ Chaser\ that\ moves\ normally\ but\ has\ a\ chance\ of\ changing\ \nits\ direction\ and\ speed\ on\ its\ own.\n\n
+comment1.params=
+comment1.target=void\ chase()
+comment1.text=\nChanges\ the\ direction\ of\ this\ chaser\ at\ random\n\n
+comment2.target=COLOR
+comment3.target=RANGE
+comment4.target=TURN_CHANCE
+comment5.params=x\ y\ target\ acanvas
+comment5.target=RandomChaser(double,double,Avoider,GameComponents.Canvas)
+comment5.text=\nCreates\ a\ Chaser\ at\ the\ specified\ coordinates\ on\ the\ given\ canvas\ \nwith\ the\ specified\ target\ to\ chase.\n\n
+numComments=6

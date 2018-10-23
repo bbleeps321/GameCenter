@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=x\ y\ acanvas\ graveyard
+comment0.target=MineLayer(double,\ double,\ GameComponents.Canvas,\ ArrayList<Ghost>)
+comment1.target=void\ step()
+comment1.text=\nSteps\ the\ blobert.\ Also\ steps\ all\ this\ blober's\ mines.\n\n
+comment2.target=void\ act1()
+comment2.text=\nFirst\ ability\ of\ blobert.\ Lays\ a\ freeze\ mine\ at\ the\ current\ \nlocation.\n\n
+comment3.target=void\ act2()
+comment3.text=\nSecond\ ability\ of\ blobert.\ Lays\ an\ explosive\ mine\ at\ the\ \ncurrent\ location.\n\n
+comment4.target=int\ act1Cost()
+comment4.text=\nReturns\ the\ cost\ of\ using\ the\ first\ ability.\n\n
+comment5.target=int\ act2Cost()
+comment5.text=\nReturns\ the\ cost\ of\ using\ the\ second\ ability.\n\n
+comment6.target=Shape\ shape()
+comment6.text=\nReturns\ the\ shape\ representation\ of\ the\ blobert.\n\n
+comment7.target=void\ removeHiddenMines()
+comment7.text=\nRemoves\ all\ the\ hidden\ mines\ from\ the\ arraylist.\n\n
+comment8.target=Color\ preferredColor()
+comment8.text=\nReturns\ the\ preferred\ color\ of\ the\ blobert.\n\n
+comment9.params=g2
+comment9.target=void\ paintComponent(Graphics2D)
+comment9.text=\nPaints\ the\ component\ and\ all\ of\ its\ mines\ onto\ the\ canvas.\n\n
+numComments=10

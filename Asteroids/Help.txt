@@ -1,0 +1,22 @@
+Description:
+Destroy all the asteroids while not crashing into them.
+
+How to play Asteroids:
+Up - Move forward
+Down - Move backwards
+Left - Turn left
+Right - Turn right
+Space - Fire basic shot
+A - Fire bomb
+
+*********************Weapons************************
+
+Basic Shot
+Damage: 1
+Speed: Average
+Cost: 0pts
+
+Bomb
+Damage: 2
+Speed: Slow
+Cost: 300pts

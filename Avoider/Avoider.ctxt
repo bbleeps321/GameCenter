@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=class\ Avoider
+comment0.text=\nPlayer-controlled\ object\ that\ is\ avoiding\ the\ chasers.\n\n
+comment1.target=COLOR
+comment10.target=dx
+comment2.params=x\ y\ acanvas
+comment2.target=Avoider(double,double,GameComponents.Canvas)
+comment2.text=\nCreates\ a\ Avoider\ object\ at\ the\ specified\ (x,y)\ coordinates\ on\ \nthe\ given\ canvas\ with\ the\ specified\ Avoider\ to\ chase.\n\n
+comment3.target=canvas
+comment4.target=MAX_SPEED
+comment5.params=
+comment5.target=Shape\ shape()
+comment5.text=\nReturns\ the\ shape\ representation\ of\ the\ avoider.\n\n
+comment6.target=myTarget
+comment7.params=x\ y
+comment7.target=void\ moveTo(double,double)
+comment7.text=\nMoves\ the\ center\ of\ the\ avoider\ to\ the\ given\ coordinates.\n\n
+comment8.target=SIZE
+comment9.target=dy
+numComments=11

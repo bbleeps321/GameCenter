@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=x\ y\ acanvas\ graveyard
+comment0.target=Reflector(double,\ double,\ GameComponents.Canvas,\ ArrayList<Ghost>)
+comment0.text=\nCreates\ a\ Reflector\ at\ the\ specified\ coordinates\ on\ the\ canvas.\ \nRequires\ a\ graveyard\ of\ ghost\ for\ its\ ability.\n\n
+comment1.target=void\ act1()
+comment1.text=\nFirst\ ability\ of\ blobert.\ Reverses\ the\ direction\ in\ \nwhich\ the\ ghosts\ are\ moving.\n\n
+comment2.target=void\ act2()
+comment2.text=\nSecond\ ability\ of\ blobert.\ Does\ nothing\n\n
+comment3.target=int\ act1Cost()
+comment3.text=\nReturns\ the\ cost\ of\ using\ the\ first\ ability.\n\n
+comment4.target=Shape\ shape()
+comment4.text=\nReturns\ the\ shape\ representation\ of\ the\ blobert.\nReturns\ the\ white\ rectangle\ portion\ of\ the\ blobert\ \nonly.\n\n
+comment5.target=Color\ preferredColor()
+comment5.text=\nReturns\ the\ preferred\ color\ of\ the\ blobert.\n\n
+comment6.params=g2
+comment6.target=void\ paintComponent(Graphics2D)
+comment6.text=\nPaints\ the\ blobert\ onto\ the\ container.\n\n
+numComments=7

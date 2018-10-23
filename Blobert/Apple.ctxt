@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=class\ Apple
+comment0.text=\nAn\ Apple\ is\ represented\ by\ a\ colored,\ non-black,\ Ellipse2D\ \nshape.\ It\ is\ what\ the\ Bloberts\ are\ trying\ to\ collect.\n\n
+comment1.params=g2
+comment1.target=void\ paintComponent(Graphics2D)
+comment1.text=\nPaints\ this\ apple\ to\ the\ container\ it\ is\ in.\n\n
+comment2.params=
+comment2.target=boolean\ collected()
+comment2.text=\nReturns\ whether\ or\ not\ the\ apple\ has\ been\ collected.\n\n
+comment3.params=
+comment3.target=Shape\ shape()
+comment3.text=\nReturns\ the\ shape\ representing\ the\ Apple.\n\n
+comment4.params=newVal
+comment4.target=void\ setCollected(boolean)
+comment4.text=\nSets\ whether\ or\ not\ the\ apple\ has\ been\ collected\ to\ \nthe\ new\ value.\n\n
+comment5.params=x\ y
+comment5.target=Apple(double,double)
+comment5.text=\nCreates\ an\ apple\ at\ the\ specified\ (x,y)\ coordinates.\n\n
+comment6.target=isCollected
+comment7.target=IMAGE
+comment8.target=SIZE
+numComments=9

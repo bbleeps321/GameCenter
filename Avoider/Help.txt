@@ -1,0 +1,22 @@
+Description:
+Avoid the many chasers for as long as 
+possible while they slowly multiply.
+
+How to play Avoider:
+Move the mouse to control the avoider (circle)
+Simply click with the mouse to begin
+
+*********************Chasers**************************
+Chaser: The basic chaser with no special traits
+Color: Red
+Ability: none
+
+RandomChaser: A Chaser that will occasionally change 
+              its direction and speed
+Color: Blue
+Ability: Random directional change
+
+TrickyChaser: A Chaser that is normally slow but accelerates
+              when you move near it
+Color: Yellow
+Ability: Accelerates towards you when you get too close

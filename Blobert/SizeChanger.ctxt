@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=x\ y\ acanvas
+comment0.target=SizeChanger(double,\ double,\ GameComponents.Canvas)
+comment1.target=void\ act1()
+comment1.text=\nFirst\ ability\ of\ blobert.\ Dilates\ the\ blob\ up\ to\ the\ \nmaximum\ size.\n\n
+comment2.target=void\ act2()
+comment2.text=\nSecond\ ability\ of\ blobert.\ Dilates\ the\ blob\ down\ to\ the\ \nminimum\ size.\n\n
+comment3.target=void\ resetBlobert()
+comment3.text=\nResets\ the\ properties\ of\ the\ blobert\ to\ \nwhat\ they\ were\ initially.\n\n
+numComments=4

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=class\ FreezeMine
+comment0.text=\nA\ mine\ that\ freezes\ any\ ghosts\ that\ go\ over\ it\ instead\ \nof\ destroying\ it.\ Represented\ by\ a\ cyan\ ellipse\n\n
+comment1.params=g
+comment1.target=void\ detonate(Ghost)
+comment1.text=\nDetonates\ the\ mine,\ hiding\ it\ while\ freezing\ the\ specified\nghost.\n\n
+comment2.params=x\ y\ someGhosts
+comment2.target=FreezeMine(double,double,ArrayList<Ghost>)
+comment2.text=\nCreates\ a\ Mine\ at\ the\ specified\ (x,y)\ coordinates.\n\n
+comment3.target=DEFAULT_COLOR
+numComments=4
