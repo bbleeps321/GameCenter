@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=env\ loc\ path\ hp
+comment0.target=Tank(BoundedEnv,\ Location,\ ArrayList<Location>,\ int)
+comment0.text=\nCreates\ a\ tank\ creep\ at\ the\ specified\ location\ in\ the\ given\ \nenvironment\ with\ the\ specified\ path.\n\n
+comment1.target=int\ baseHP()
+comment1.text=\nReturns\ the\ base\ (initial)\ hp\ of\ a\ creep\ of\ this\ type.\n\n
+numComments=2

@@ -1,0 +1,43 @@
+Description:
+Avoid the ghosts and navigate through the field 
+while collecting apples. How many levels can you 
+survive through?
+
+How to play Tower Defense:
+Left Click: Build the selected tower
+Right Click: Sell the selected tower
+N - Send next wave early/Start waves
+
+*********************Towers************************
+
+Tower: The basic Tower
+Range: 3-3-3-3-6
+Damage: 4-5-7-10-20
+Rapidity: Average
+
+Sniper: Tower with extended range
+Range: 8-8-8-8-12
+Damage: 3-4-6-9-18
+Rapidity: Slow
+
+Rapid: Tower with rapid fire rate
+Range: 3-3-3-3-7
+Damage: 2-3-4-8-20
+Rapidity: Fast
+
+**********************Creeps*************************
+
+Creep: Basic creep with no special traits
+Color: Gray
+Initial Health: 10
+Speed: Average
+
+Fast: Fast creep
+Color: Green
+Initial Health: 10
+Speed: Fast
+
+Tank: Slow creep with more health
+Color: Orange
+Initial Health: 15
+Speed: Slow

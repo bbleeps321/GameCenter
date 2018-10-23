@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Sniper()
+comment0.text=\nCreates\ a\ dummy\ sniper\ tower\n\n
+comment1.params=env\ loc\ targList
+comment1.target=Sniper(BoundedEnv,\ Location,\ ArrayList<Creep>)
+comment1.text=\nCreates\ a\ sniper\ tower\ at\ the\ specified\ location\ in\ the\ environment\ \nwith\ the\ given\ list\ of\ targets.\n\n
+comment2.target=void\ upgrade()
+comment2.text=\nUpgrades\ the\ Tower's\ damage\ and/or\ range,\ based\ on\ level.\n\n
+comment3.target=String\ name()
+comment3.text=\nReturns\ the\ name\ of\ the\ tower.\n\n
+comment4.target=String\ description()
+comment4.text=\nReturns\ the\ description\ of\ the\ tower.\n\n
+comment5.target=int\ cost()
+comment5.text=\nReturns\ the\ cost\ of\ building/upgrading\ the\ tower.\n\n
+numComments=6

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=class\ UnitDisplay
+comment0.text=\nA\ display\ for\ information\ on\ a\ unit\ (tower,\ creep).\ Displays\ the\ \nunit's\ range,\ speed,\ cost,\ health\ (all\ as\ applicable).\n\n
+comment1.params=g2\ x\ y\ width\ height\ f
+comment1.target=void\ paintComponent(Graphics2D,double,double,double,double,Font)
+comment1.text=\nPaints\ the\ current\ unit's\ stats\ at\ the\ specified\ \ncoordinates\ with\ the\ given\ dimensions\ in\ the\ container.\n\n
+comment2.params=aUnit
+comment2.target=void\ setUnit(Unit)
+comment2.text=\nSets\ the\ unit\ being\ displayed\ to\ the\ specified\ one.\n\n
+comment3.params=
+comment3.target=UnitDisplay()
+comment3.text=\nCreates\ a\ UnitDisplay\ with\ no\ unit.\n\n
+comment4.target=WIDTH
+comment5.target=myUnit
+comment6.target=HEIGHT
+numComments=7

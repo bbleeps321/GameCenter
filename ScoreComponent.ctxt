@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=games
+comment0.target=ScoreComponent(Game[])
+comment0.text=\nCreates\ a\ ScoreComopent\ reading\ text\ files\ from\ the\ \narray\ of\ Games.\n\n
+comment1.params=file
+comment1.target=ArrayList<String>\ readFile(String)
+comment1.text=\nReads\ the\ specified\ String\ url,\ returning\ the\ entire\ \ntext\ file\ as\ a\ String\ ArrayList.\n\n
+comment2.params=g
+comment2.target=void\ update(Game)
+comment2.text=\nUpdates\ the\ scores\ contained\ by\ the\ specified\ game.\n\n
+numComments=3

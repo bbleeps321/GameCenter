@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=interface\ Unit
+comment0.text=\nInterface\ for\ all\ objects\ whose\ information\ can\ be\ viewed.\ \nImposes\ methods\ such\ as\ description\ and\ image.\ Intended\ for\ \nuse\ with\ a\ CommandBar.\n\n
+comment1.params=
+comment1.target=String\ name()
+comment1.text=Returns\ the\ name\ of\ the\ unit.*\n
+comment2.params=
+comment2.target=String\ description()
+comment2.text=Returns\ a\ description\ of\ the\ unit.*\n
+comment3.params=
+comment3.target=Image\ image()
+comment3.text=Returns\ the\ image\ representation\ of\ the\ unit.*\n
+comment4.params=
+comment4.target=boolean\ isDummy()
+comment4.text=Returns\ whether\ or\ not\ the\ unit\ is\ a\ dummy.*\n
+comment5.params=
+comment5.target=int\ cost()
+comment5.text=Returns\ the\ cost\ of\ the\ unit.*\n
+numComments=6

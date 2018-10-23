@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=env\ loc\ path\ hp
+comment0.target=Fast(BoundedEnv,\ Location,\ ArrayList<Location>,\ int)
+comment0.text=\nCreates\ a\ fast\ creep\ at\ the\ specified\ location\ in\ the\ given\ \nenvironment\ with\ the\ specified\ path.\n\n
+numComments=1

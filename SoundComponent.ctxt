@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=parent
+comment0.target=SoundComponent(Frame)
+comment0.text=\nCreate\ the\ GUI.\n\n
+comment1.params=e
+comment1.target=void\ actionPerformed(ActionEvent)
+comment1.text=\nFired\ when\ an\ action\ event\ occurs.\n\n
+comment2.target=void\ startSong()
+comment2.text=\nLoops\ the\ selected\ BGM\ if\ enabled.\n\n
+comment3.target=void\ stopSong()
+comment3.text=\nStops\ the\ selected\ BGM.\n\n
+comment4.target=SoundCache\ getSoundCache()
+comment4.text=\nReturns\ the\ sound\ cache\ being\ used\ by\ this\ component.\n\n
+comment5.target=String[]\ readFile()
+comment5.text=\nReads\ a\ specific\ text\ file\ and\ returns\ a\ string[]\ of\ the\ lines\ in\ it.\n\n
+numComments=6

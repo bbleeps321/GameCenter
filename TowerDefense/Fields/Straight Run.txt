@@ -1,0 +1,18 @@
+Width = 15
+Height = 15
+
+O O O O O O O O O O O O O O O
+O O O O O O O O O O O O O O O
+O O O O O O O O O O O O O O O
+O O O O O O O O O O O O O O O
+O O O O O O O O O O O O O O O
+O O O O O O O O O O O O O O O
+O O O O O O O O O O O O O O O
+S P P P P P P P P P P P P E O
+O O O O O O O O O O O O O O O
+O O O O O O O O O O O O O O O
+O O O O O O O O O O O O O O O
+O O O O O O O O O O O O O O O
+O O O O O O O O O O O O O O O
+O O O O O O O O O O O O O O O
+O O O O O O O O O O O O O O O
