@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=interface\ Locatable
+comment0.text=\nInterface\ for\ all\ objects\ that\ have\ a\ location\ property.\n\n
+comment1.params=
+comment1.target=Location\ loc()
+comment1.text=Return\ the\ location\ of\ this\ object.*\n
+numComments=2

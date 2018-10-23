@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=env\ loc
+comment0.target=Shape2DLocatable(BoundedEnv,\ Location)
+comment0.text=\nCreates\ a\ Shape2DLocatable\ at\ the\ specified\ location\ in\ the\ \ngiven\ environment.\n\n
+comment1.params=env\ loc\ col
+comment1.target=Shape2DLocatable(BoundedEnv,\ Location,\ Color)
+comment1.text=\nCreates\ a\ Shape2DLocatable\ at\ the\ specified\ location\ in\ the\ \ngiven\ environment\ with\ the\ given\ color\n\n
+comment2.params=env\ loc\ imageName
+comment2.target=Shape2DLocatable(BoundedEnv,\ Location,\ String)
+comment2.text=\nCreates\ a\ Shape2DLocatable\ at\ the\ specified\ location\ in\ the\ \ngiven\ environment\ with\ the\ given\ image\ name\n\n
+comment3.target=Location\ loc()
+comment3.text=\nReturns\ the\ location\ of\ the\ object.\n\n
+comment4.params=loc
+comment4.target=void\ changeLocation(Location)
+comment4.text=\nChanges\ the\ location\ of\ the\ object\ and\ updates\ its\ \nlocation\ in\ the\ environment.\n\n
+comment5.params=g2
+comment5.target=void\ paintComponent(Graphics2D)
+comment5.text=\nPaints\ the\ object\ onto\ the\ container\ only\ if\ it\ is\ still\ \nin\ the\ environment.\n\n
+numComments=6

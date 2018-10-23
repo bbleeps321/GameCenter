@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=class\ ResourceCache
+comment0.text=\nAbstract\ class\ for\ different\ caches\ used\ in\ games\ (sound,\ sprites,\ etc.).\n\n
+comment1.params=name
+comment1.target=Object\ getResource(String)
+comment1.text=\nGets\ the\ resource\ from\ the\ specified\ name.\n\n
+comment2.target=resources
+comment3.params=name
+comment3.target=Object\ loadResource(String)
+comment3.text=\nLoads\ the\ resource\ from\ the\ specified\ name.\n\n
+comment4.params=url
+comment4.target=Object\ loadResource(URL)
+comment5.params=
+comment5.target=ResourceCache()
+comment5.text=\nInitializes\ the\ cache.\n\n
+numComments=6

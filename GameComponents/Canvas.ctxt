@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=class\ Canvas
+comment0.text=\nA\ date\ representation\ of\ a\ bounding\ rectangle\ where\ \ngraphics\ can\ be\ drawn.\n\n
+comment1.params=
+comment1.target=double\ height()
+comment1.text=\nReturns\ the\ height\ of\ the\ canvas.\n\n
+comment2.params=width\ height
+comment2.target=Canvas(double,double)
+comment2.text=\nCreates\ a\ new\ canvas\ with\ the\ specified\ dimensions.\n\n
+comment3.target=myHeight
+comment4.target=myWidth
+comment5.params=
+comment5.target=double\ width()
+comment5.text=\nReturns\ the\ width\ of\ the\ canvas.\n\n
+numComments=6

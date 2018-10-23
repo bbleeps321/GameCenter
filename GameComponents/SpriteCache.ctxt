@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=class\ SpriteCache
+comment0.text=\nCache\ providing\ access\ to\ images,\ buffered\ to\ a\ standard\ \nconfiguration\ for\ efficiency.\n\n
+comment1.params=img\ infoflags\ x\ y\ w\ h
+comment1.target=boolean\ imageUpdate(Image,int,int,int,int,int)
+comment1.text=\nUpdates\ the\ image.\n\n
+comment2.params=name
+comment2.target=BufferedImage\ getSprite(String)
+comment2.text=\nReturns\ a\ sprite\ image\ using\ the\ given\ file\ name.\n\n
+comment3.params=width\ height\ transparency
+comment3.target=BufferedImage\ createCompatible(int,int,int)
+comment3.text=\nReturns\ a\ BufferedImage\ of\ a\ standard\ configuration.\n\n
+comment4.params=url
+comment4.target=Object\ loadResource(URL)
+comment4.text=\nLoads\ the\ resource\ from\ the\ specified\ url\n\n
+numComments=5

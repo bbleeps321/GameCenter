@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=dir
+comment0.target=Direction(String)
+comment0.text=\nCreates\ direction\ with\ the\ specified\ string\ direction\ value.\n\n
+comment1.target=Direction\ reverse()
+comment1.text=\nReturns\ the\ reverse\ of\ this\ direction.\n\n
+comment2.target=Direction\ randomDirection()
+comment2.text=\nReturns\ a\ random\ direction\ facing.\n\n
+comment3.target=String\ toString()
+comment3.text=\nReturns\ the\ string\ representation\ of\ the\ direction.\n\n
+numComments=4

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=interface\ MultiLocatable
+comment0.text=\nInterface\ for\ all\ locatable\ objects\ that\ may\ be\ in\ more\ \nthan\ one\ location.\n\n
+comment1.params=
+comment1.target=Location[]\ locs()
+comment1.text=Returns\ an\ array\ of\ locations\ that\ this\ object\ occupies.*\n
+numComments=2
