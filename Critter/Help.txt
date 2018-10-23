@@ -1,0 +1,9 @@
+Description:
+Collect all the treasures while not touching 
+the rocks. Avoid the other critters to stay alive.
+
+How to play Critter:
+Up - Move upwards
+Down - Move downwards
+Left - Move towards the left
+Right - Move towards the right

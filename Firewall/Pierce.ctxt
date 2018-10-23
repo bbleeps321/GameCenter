@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=class\ Pierce
+comment0.text=\nA\ Pierce\ acts\ just\ like\ a\ normal\ shot\ except\ when\ it\ can\ \ndestroy\ all\ the\ bricks\ bricks\ in\ the\ same\ column.\n\n
+comment1.target=COLOR
+comment2.params=
+comment2.target=void\ detonate()
+comment2.text=\nDetonates\ the\ Pierce,\ removing\ it\ and\ any\ bricks\ in\ \nthe\ same\ column\ from\ the\ environment.\n\n
+comment3.params=
+comment3.target=int\ cost()
+comment3.text=\nReturns\ the\ cost\ of\ the\ shot.\n\n
+comment4.params=
+comment4.target=Pierce()
+comment4.text=\nCreates\ a\ Pierce\ with\ nothing\ initialized.\ Should\ be\ used\ when\ \nusing\ methods\ that\ do\ not\ require\ them\ to\ be\ (cost).\n\n
+comment5.params=env\ loc
+comment5.target=Pierce(BoundedEnv,Location)
+comment5.text=\nCreates\ a\ Pierce\ at\ the\ specified\ location\ in\ the\ given\ \nenvironment.\n\n
+numComments=6

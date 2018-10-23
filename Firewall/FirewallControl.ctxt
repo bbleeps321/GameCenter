@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=FirewallControl()
+comment0.text=\nCreates\ an\ instance\ of\ the\ Firewall\ game.\n\n
+comment1.params=e
+comment1.target=void\ keyPressed(KeyEvent)
+comment1.text=\nFired\ when\ a\ KeyEvent\ is\ invoked.\ Controls\ the\ gunner.\n\n
+comment10.params=args
+comment10.target=void\ main(String[])
+comment10.text=\nRuns\ the\ game.\n\n
+comment2.target=void\ initializeGameplayComponents()
+comment2.text=\nInitilizss\ the\ game\ components.\n\n
+comment3.target=void\ runProcess()
+comment3.text=\nRuns\ the\ game\ process.\n\n
+comment4.target=String\ description()
+comment4.text=\nReturns\ a\ description\ of\ the\ game.\n\n
+comment5.target=String\ name()
+comment5.text=\nReturns\ the\ name\ of\ the\ game.\n\n
+comment6.target=String\ helpFileName()
+comment6.text=\nReturns\ the\ String\ url\ of\ the\ text\ file\ containing\ the\ game's\ \nhelp\ information.\n\n
+comment7.target=void\ endGame()
+comment7.text=\nEnds\ the\ game.\n\n
+comment8.params=g
+comment8.target=void\ paintComponent(Graphics)
+comment8.text=\nPaints\ the\ game\ onto\ the\ container.\n\n
+comment9.target=boolean\ isScorable()
+comment9.text=\nReturns\ whether\ or\ not\ this\ game\ can\ be\ scored.\n\n
+numComments=11

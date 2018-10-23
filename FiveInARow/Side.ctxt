@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.params=aName\ col\ env
+comment0.target=Side(String,\ Color,\ BoundedEnv)
+comment0.text=\nInitializes\ a\ side,\ assigning\ it\ with\ the\ given\ name.\n\n
+comment1.params=loc
+comment1.target=void\ addPiece(Location)
+comment1.text=\nAdds\ a\ new\ piece\ to\ this\ side\ at\ the\ specified\ location.\n\n
+comment2.params=p
+comment2.target=void\ addPiece(Piece)
+comment2.text=\nAdds\ the\ specified\ piece\ to\ this\ side.\n\n
+comment3.target=void\ removeAll()
+comment3.text=\nRemoves\ all\ pieces\ from\ this\ side.\n\n
+comment4.target=int\ pieceCount()
+comment4.text=\nReturns\ the\ number\ of\ pieces\ in\ this\ side.\n\n
+comment5.target=Color\ color()
+comment5.text=\nReturns\ the\ color\ of\ this\ side.\n\n
+comment6.params=index
+comment6.target=Piece\ piece(int)
+comment6.text=\nReturns\ the\ piece\ at\ the\ specified\ index.\n\n
+comment7.target=String\ name()
+comment7.text=\nReturns\ the\ name\ of\ this\ side.\n\n
+comment8.target=int\ maxConsecutive()
+comment8.text=\nReturns\ the\ greatest\ number\ of\ pieces\ on\ this\ side\ \nthat\ are\ adjacent\ to\ each\ other\ (including\ diagonals).\n\n
+comment9.params=p\ checked
+comment9.target=int\ numConsecutive(Piece,\ boolean[])
+comment9.text=\nReturns\ the\ total\ number\ of\ pieces\ adjacent\ to\ the\ \nspecified\ one\ and\ the\ ones\ adjacent\ to\ its\ neighbors.\n\nDoesn't\ work,\ returns\ number\ of\ adjacent\ consecutive,\ \nbut\ not\ in\ a\ row\ (line).\n\n
+numComments=10

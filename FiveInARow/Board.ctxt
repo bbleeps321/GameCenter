@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=rows\ cols\ size
+comment0.target=Board(int,\ int,\ int)
+comment0.text=\nInitializes\ the\ board.\n\n
+comment1.target=BoundedEnv\ env()
+comment1.text=\nReturns\ the\ environment\ this\ board\ represents.\n\n
+comment2.params=g2
+comment2.target=void\ paintBoard(Graphics2D)
+comment2.text=\nPaints\ the\ board.\n\n
+numComments=3

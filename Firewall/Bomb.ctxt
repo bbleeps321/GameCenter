@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=class\ Bomb
+comment0.text=\nA\ Bomb\ acts\ just\ like\ a\ normal\ shot\ except\ when\ it\ hits,\ \na\ one-unit\ radius\ of\ bricks\ are\ destroyed.\n\n
+comment1.target=COLOR
+comment2.params=
+comment2.target=void\ detonate()
+comment2.text=\nDetonates\ the\ bomb,\ removing\ it\ and\ any\ bricks\ in\ its\ \nrange\ from\ the\ environment.\n\n
+comment3.params=
+comment3.target=Bomb()
+comment3.text=\nCreates\ a\ bomb\ with\ nothing\ initialized.\ Should\ be\ used\ when\ \nusing\ methods\ that\ do\ not\ require\ them\ to\ be\ (cost).\n\n
+comment4.params=env\ loc
+comment4.target=Bomb(BoundedEnv,Location)
+comment4.text=\nCreates\ a\ Bomb\ at\ the\ specified\ location\ in\ the\ given\ \nenvironment.\n\n
+comment5.params=
+comment5.target=int\ cost()
+comment5.text=\nReturns\ the\ cost\ of\ the\ shot.\n\n
+numComments=6

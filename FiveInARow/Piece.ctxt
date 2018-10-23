@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=env\ loc\ aSide
+comment0.target=Piece(BoundedEnv,\ Location,\ Side)
+comment0.text=\nCreates\ a\ piece\ at\ the\ specified\ location\ in\ the\ environment\ \non\ the\ given\ side.\n\n
+comment1.target=Side\ side()
+comment1.text=\nReturns\ the\ side\ this\ piece\ belongs\ to.\n\n
+comment2.target=Shape\ shape()
+comment2.text=\nReturns\ the\ shape\ of\ the\ piece.\n\n
+numComments=3

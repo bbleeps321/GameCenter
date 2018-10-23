@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=class\ Ghoul
+comment0.text=\nA\ Ghoul\ is\ just\ like\ a\ Ghost\ except\ it\ has\ a\ 1/20\ chance\ \nof\ changing\ direction\ without\ needing\ to\ bounce\ off\ a\ wall.\n\n
+comment1.params=acanvas
+comment1.target=Ghoul(GameComponents.Canvas)
+comment1.text=\nCreates\ a\ Ghoul\ at\ a\ random\ location\ inside\ the\ dimensions\ of\ the\ \nenvironment\ canvas.\n\n
+comment2.target=TURN_CHANCE
+comment3.params=
+comment3.target=void\ step()
+comment3.text=\nSteps\ this\ ghost's\ movement\ by\ one\ unit.\n\n
+comment4.target=IMAGE
+numComments=5

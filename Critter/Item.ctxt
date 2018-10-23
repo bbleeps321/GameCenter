@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=class\ Item
+comment0.text=\nAn\ item\ is\ can\ be\ placed\ in\ a\ BoundedEnv.\ Represented\ by\ \na\ colored\ ellipse.\n\n
+comment1.target=BAD_PIC
+comment10.params=newVal
+comment10.target=void\ setCollected(boolean)
+comment10.text=\nSets\ the\ value\ of\ whether\ or\ not\ the\ item\ has\ been\ collected.\n\n
+comment2.params=
+comment2.target=boolean\ good()
+comment2.text=\nReturns\ whether\ or\ not\ the\ item\ is\ good\n\n
+comment3.params=env\ loc\ good
+comment3.target=Item(BoundedEnv,Location,boolean)
+comment3.text=\nCreates\ an\ item\ at\ the\ specified\ location\ in\ the\ environment\ \nwith\ the\ given\ color.\n\n
+comment4.params=g2
+comment4.target=void\ paintComponent(Graphics2D)
+comment4.text=\nPaints\ the\ component\ onto\ the\ container\ if\ it\ has\ not\ \nbeen\ collected.\n\n
+comment5.params=
+comment5.target=Shape\ shape()
+comment5.text=\nReturns\ the\ shape\ representation\ of\ this\ item.\n\n
+comment6.params=
+comment6.target=boolean\ collected()
+comment6.text=\nReturns\ whether\ or\ not\ this\ item\ has\ been\ collected.\n\n
+comment7.target=isCollected
+comment8.target=GOOD_PIC
+comment9.target=isGood
+numComments=11

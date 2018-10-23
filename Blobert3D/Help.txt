@@ -1,0 +1,51 @@
+Description:
+Avoid the ghosts and navigate through the field 
+while collecting apples. How many levels can you 
+survive through?
+
+How to play Blobert:
+Up - Accelerate blobert upwards
+Down - Accelerate blobert downwards
+Left - Accelerate blobert towards the left
+Right - Accelerate blobert towards the right
+A - Use blobert's first technique (as applicable)
+S - Use blobert's second technique (as applicable)
+
+*********************Bloberts************************
+
+Blobert: The basic blobert, no abilities
+Ability 1: none
+Ability 2: none
+
+SizeChanger: Can grow and shrink in size
+Ability 1: Grow (-0pts)
+Ability 2: Shrink (-0pts)
+
+Reflector: Can send ghosts moving in opposite directions
+Ability 1: Reverse direction of all ghosts (-100pts)
+Ability 2: none
+
+MineLayer: Can lay mines that freeze/kill ghosts
+Ability 1: Places a ghost-freezing mine at its location (-200pts)
+Ability 2: Places a ghost-killing mine at its location (-300pts)
+
+Phaser: Can phase to shift through all ghosts and apples
+Ability 1: Toggles the phasing state (-100pts when turned on or off)
+Ability 2: none
+
+**********************Ghosts*************************
+
+Ghost: Basic ghost with no special traits
+Color: White
+Life Deduction: 1
+Special Abilities: none
+
+Phantom: Ghosts with more deadly affects
+Color: White
+Life Deduction: 2
+Special Abilities: none
+
+Ghoul: Erratic ghosts that move differently than others
+Color: Yellow
+Life Deduction: 1
+Special Abilities: Can change directions without bouncing

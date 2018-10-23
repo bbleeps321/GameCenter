@@ -1,0 +1,28 @@
+Description:
+Prevent the wall of fire from falling to the ground.
+
+How to play Firewall:
+Left - Move towards the left
+Right - Move towards the right
+Space - Fire basic shot
+A - Fire bomb
+S - Fire pierce
+
+*********************Weapons************************
+
+Basic Shot
+Effect: Destroys one brick
+Speed: Average
+Cost: 0pts
+
+Bomb
+Effect: Destroys all bricks in a 1 unit radius
+Speed: Slow
+Cost: 500pts
+
+Pierce
+Effect: Destroys all consecutive bricks in the same column
+Speed: Fast
+Cost: 1200pts
+
+NOTE: Shots can hit another shot, neutralizing each other

@@ -1,0 +1,7 @@
+Description:
+Try to get 5 pieces in a row and prevent your opponent 
+from doing the same.
+
+How to play Five-In-A-Row:
+Mouse click - Place the piece currently held in the 
+target location.

@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=class\ Phaser
+comment0.text=\nA\ Phaser\ is\ a\ Blobert\ with\ the\ ability\ to\ go\ through\ objects\ \n(ghosts\ and\ apples)\ without\ being\ affected\ by\ them.\ There\ is\ \nno\ cost\ for\ using\ this\ ability.\n\n
+comment1.params=g2
+comment1.target=void\ paintComponent(Graphics2D)
+comment1.text=\nPaints\ the\ blobert\ onto\ the\ container.\n\n
+comment2.params=
+comment2.target=void\ act1()
+comment2.text=\nFirst\ ability\ of\ blobert.\ Toggles\ blobert's\ phase\ state.\n\n
+comment3.params=
+comment3.target=int\ act1Cost()
+comment3.text=\nReturns\ the\ cost\ of\ using\ the\ first\ ability\n\n
+comment4.params=x\ y\ acanvas
+comment4.target=Phaser(double,double,GameComponents.Canvas)
+comment4.text=\nCreates\ a\ blobert\ at\ the\ specified\ coordinates\ on\ the\ \ngiven\ anvas.\n\n
+comment5.target=isPhasing
+comment6.target=IMAGE
+comment7.params=s
+comment7.target=boolean\ overlaps(Shape2D)
+comment7.text=\nReturns\ whether\ or\ not\ the\ Phaser\ is\ overlapping\ the\ \nspecified\ shape.\ Returns\ false\ if\ the\ blobert\ is\ \nphasing.\n\n
+comment8.params=
+comment8.target=Color\ preferredColor()
+comment8.text=\nReturns\ the\ preferred\ color\ of\ the\ blobert.\n\n
+numComments=9
