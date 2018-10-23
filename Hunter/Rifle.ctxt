@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=class\ Rifle
+comment0.text=\nThe\ basic\ kind\ of\ weapon,\ with\ average\ damage\ and\ ammo.\n\n
+comment1.target=MAX_AMMO
+comment2.target=COLOR
+comment3.target=DAMAGE
+comment4.params=
+comment4.target=Rifle()
+comment4.text=\nCreates\ a\ fully-loaded\ rifle.\n\n
+comment5.target=NAME
+comment6.params=g2\ x\ y
+comment6.target=void\ paintWeapon(Graphics2D,double,double)
+comment6.text=\nPaints\ the\ crosshairs\ representing\ this\ weapon\ at\ the\ specified\ \ncoordinates.\n\n
+comment7.target=SIZE
+numComments=8

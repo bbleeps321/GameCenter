@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=name\ stats\ env\ loc\ img
+comment0.target=Unit(String,\ int[],\ BoundedEnv,\ Location,\ String)
+comment0.text=\nInitializes\ stats\ of\ new\ unit.\n\n
+comment1.target=String\ name()
+comment1.text=\nReturns\ name\ of\ unit.\n\n
+comment2.target=int[]\ stats()
+comment2.text=\nReturns\ stats\ of\ unit.\n\n
+comment3.target=Shape\ shape()
+numComments=4

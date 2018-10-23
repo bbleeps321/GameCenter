@@ -1,0 +1,21 @@
+Description:
+Take careful aim and destroy the targets moving 
+on the stage. Each successive level may make the 
+targets faster. Beware! Your ammunition for each 
+level is limited and if you run out, you lose.
+
+How to play Hunter:
+Aim the center of the crosshairs and left-click
+with the mouse to fire. As you progress, you'll 
+gain weapons with different bonuses.
+
+*******************Weapons***********************
+Rifle: The basic weapon with no bonuses and enough 
+       ammo.
+Ammo: 15
+Score Bonus: 100
+
+Pistol: Weapon with less ammo than a rifle but provides 
+        a better score bonus if it hits.
+Ammo: 10
+Score Bonus: 500

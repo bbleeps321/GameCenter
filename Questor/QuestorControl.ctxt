@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=QuestorControl()
+comment0.text=\nInitializes\ the\ game.\n\n
+comment1.params=e
+comment1.target=void\ keyPressed(KeyEvent)
+comment1.text=\nRequired\ by\ KeyListener.\ Handles\ keyboard\ input\ \nfor\ controlling\ the\ hero.\n\n
+comment2.target=void\ initializeGameplayComponents()
+comment2.text=\nInitializes\ the\ gameplay\ components.\n\n
+comment3.params=g
+comment3.target=void\ paintComponent(Graphics)
+comment3.text=\nPaints\ the\ game\ to\ the\ container.\n\n
+comment4.target=String\ description()
+comment4.text=\nDescription\ of\ game.\n\n
+comment5.target=String\ name()
+comment5.text=\nName\ of\ game.\n\n
+comment6.target=boolean\ isScorable()
+comment6.text=\nGame\ is\ not\ scorable.\n\n
+comment7.target=void\ runProcess()
+comment7.text=Runs\ the\ game\ process.\ Not\ needed\ for\ this\ game.*\n
+comment8.params=args
+comment8.target=void\ main(String[])
+comment8.text=\nRuns\ the\ game.\n\n
+numComments=9

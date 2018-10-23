@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=level\ env\ loc
+comment0.target=Enemy(int,\ BoundedEnv,\ Location)
+comment1.params=level
+comment1.target=int[]\ generateStats(int)
+numComments=2

@@ -1,0 +1,269 @@
+package Hunter;
+
+//import
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.Font;
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.awt.event.KeyEvent;
+import java.awt.event.MouseEvent;
+import java.util.ArrayList;
+import java.util.Random;
+
+import javax.swing.JFrame;
+
+import GameComponents.Game;
+
+/**
+ * Controls the Hunter game and its processes.
+ */
+public class HunterControl extends Game
+{
+    //constants
+    private static final String DIRECTORY = "Hunter/"; //directory of files
+    private static final int WIDTH = 500; //width of game frame
+    private static final int HEIGHT = 500; //height of game frame
+    private static final int SCORE_INCREMENT = 100; //increment score grows by
+    private static final int LEVEL_PER_UPGRADE = 5; //levels before each upgrade
+    private static final int INIT_TARGETS = 10; //initial number of targets
+    private static final String[] WEAPONS = {"Rifle", //list of weapon types
+                                             "Pistol"};
+    
+    private GameComponents.Canvas canvas; //canvas game is played on
+    private ArrayList<Target> targets; //list of all targets in game
+    private Crosshair myCrosshair; //player-controlled crosshair
+    
+    private int score; //score in current game
+    private int level; //current level of game
+    private int targCount; //number of targets remaining
+    private boolean over; //if the game is over
+    
+    private int myDelay; //delay for stepping
+    private int stepCount; //number of step attempts since last step
+    
+    /**
+     * Creates a new HunterControl object.
+     */
+    public HunterControl()
+    {
+        super(WIDTH, HEIGHT, DIRECTORY);
+    }
+    
+    /**
+     * Handles key input. Switches between weapons.
+     */
+    public void keyPressed(KeyEvent e)
+    {
+        int keyCode = e.getKeyCode();
+        
+        if (keyCode == KeyEvent.VK_A)
+            myCrosshair.prevWpn();
+        else if (keyCode == KeyEvent.VK_S)
+            myCrosshair.nextWpn();
+    }
+    
+    /**
+     * Handles mouse moved event. Moves the crosshair to the cursor's 
+     * location.
+     */
+    public void mouseMoved(MouseEvent e)
+    {
+        double x = e.getX();
+        double y = e.getY();
+        myCrosshair.moveTo(x,y);
+    }
+    
+    /**
+     * Handles mouse clicked event. Fires the weapon wielded by the 
+     * crosshair,
+     */
+    public void mousePressed(MouseEvent e)
+    {
+        if (!myCrosshair.fire()) //failed to fire
+            return;
+        
+        playSound("fire.au");
+        
+        //check if crosshair over a target
+        double x = myCrosshair.centerX();
+        double y = myCrosshair.centerY();
+        int origTargCount = targCount;
+        for (Target t : targets)
+        {
+            if (t.shape().contains(x,y) && //crosshair over this target
+                 !t.isHidden())
+            {
+                t.setHidden(true);
+                score += t.bonus()*SCORE_INCREMENT + 
+                         myCrosshair.currentWpn().dmg()*SCORE_INCREMENT;
+                targCount--;
+            }
+        }
+        
+        if (origTargCount == targCount) //no target hit
+            score = Math.max(0, score - SCORE_INCREMENT);
+            
+        //check if level is complete
+        if (targCount <= 0) //no targets left
+            loadNextLevel();
+        else if  (!myCrosshair.hasWpnsLeft()) //game over if not weapons left
+            over = true;
+    }
+    
+    /**
+     * Initializes the gameplay components.
+     */
+    protected void initializeGameplayComponents()
+    {
+        //create canvas
+        canvas = new GameComponents.Canvas(WIDTH, HEIGHT);
+        
+        score = 0;
+        level = 1;
+        
+        //initialize crosshair
+        int wpnNum = Math.min(level/LEVEL_PER_UPGRADE + 1, WEAPONS.length);
+        String[] wpns = new String[wpnNum];
+        for (int i = 0; i < wpns.length; i++)
+            wpns[i] = WEAPONS[i];
+            
+        myCrosshair = new Crosshair(WIDTH/2, HEIGHT/2, wpns, canvas);
+        
+        //initialize targets
+        Random rand = new Random();
+        targets = new ArrayList<Target>();
+        for (int i = 0; i < INIT_TARGETS; i++)
+        {
+            int x = rand.nextInt(WIDTH);
+            int y = rand.nextInt(HEIGHT);
+            targets.add(new Target(x, y, canvas));
+        }
+        
+        stepCount = 0;
+        targCount = INIT_TARGETS;
+    }
+    
+    /**
+     * Runs the game process.
+     */
+    protected void runProcess()
+    {
+        //step all targets
+        for (Target t : targets)
+            t.step();
+    }
+    
+    /**
+     * Loads the next level of the game.
+     */
+    private void loadNextLevel()
+    {
+        level++;
+        
+        //set weapons
+        int wpnNum = Math.min(level/LEVEL_PER_UPGRADE + 1, WEAPONS.length);
+        String[] wpns = new String[wpnNum];
+        for (int i = 0; i < wpns.length; i++)
+            wpns[i] = WEAPONS[i];
+            
+        myCrosshair.setWpns(wpns);
+        
+        //re-show targets
+        for (Target t : targets)
+        {
+            t.raiseMax(); //faster
+            t.randomizeDirection(); //new direction & speed
+            t.randomizeLocation(); //new location
+            t.setHidden(false); //show
+        }
+            
+        targCount = INIT_TARGETS;
+    }
+    
+    /**
+     * Returns whether or not the game is over.
+     */
+    private boolean isOver()
+    {
+        if (!myCrosshair.hasWpnsLeft()) //no weapons left
+            return true;
+        return false;
+    }
+    
+    /**
+     * Returns the name of the game.
+     */
+    public String name()
+    {
+        return "Hunter";
+    }
+    
+    /**
+     * Returns the description of the game.
+     */
+    public String description()
+    {
+        return "Switch between weapons and destroy all the targets!";
+    }
+    
+    /**
+     * Returns whether or not this game can be scored.
+     */
+    public boolean isScorable()
+    {
+        return true;
+    }
+    
+    /**
+     * Paints the game onto the container.
+     */
+    protected void paintComponent(Graphics g)
+    {
+        Graphics2D g2 = (Graphics2D) g;
+        Font defaultFont = g2.getFont();
+        
+        //paint background
+        g2.setColor(Color.white);
+        g2.fill(g2.getClipBounds());
+        
+        //paint all targets
+        for (Target t : targets)
+            t.paintComponent(g2);
+            
+        //paint crosshair
+        myCrosshair.paintComponent(g2);
+        
+        //paint score displays
+        g2.setColor(Color.black);
+        g2.setFont(defaultFont);
+        g2.drawString("Score: " + score, GAP, 3*GAP); //score
+        g2.drawString("Level: " + level, WIDTH - 60, 3*GAP); //level
+        
+        if (over) //game over
+        {
+            g2.setColor(Color.red);
+            g2.setFont(new Font("", Font.BOLD, 40));
+            g2.drawString("Game Over", WIDTH/2 - 100, HEIGHT/2 - 10);
+            pauseGame(); //stop game actions
+            submitScore(score);
+        }
+    }
+    
+    /**
+     * Runs the game.
+     */
+    public static void main(String[] args)
+    {
+        Game gui = new HunterControl();
+        JFrame frame = new JFrame(gui.name());
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setResizable(false);
+        frame.setPreferredSize(new Dimension(150, 155));
+        
+        frame.setContentPane(gui.getOptionsPanel());
+        
+        frame.pack();
+        frame.setVisible(true);
+    }
+}

@@ -1,0 +1,9 @@
+Description:
+Adapt your shape and color to match the descending 
+portals and destroy them before they reach the bottom.
+
+How to play Gateway:
+Mouse click - Rotate key left
+A - Switch to next color (red, yellow, blue, green)
+S - Switch to previous color (green, blue, yellow, red)
+Space - Switch to next shape (circle, square)

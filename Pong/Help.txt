@@ -1,0 +1,13 @@
+Description:
+Try to hit the ball into past the opponent while 
+he is trying to do the same to you. Play up to 
+best of nine.
+
+How to play Pong:
+W - Move paddle 1 (on the left) upwards
+S - Move paddle 1 (on the left) downwards
+Shift - Stop paddle 1 (on the left)'s movement
+
+Up - Move paddle 2 (on the right) upwards
+Down - Move paddle 2 (on the right) downwards
+Enter - Stop paddle 2 (on the right)'s movement
